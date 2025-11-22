@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coding Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Coding Quiz</h1>
+    <div id="menu">
+      <button id="start">Start Quiz</button>
+      <button id="how">How to Play</button>
+    </div>
+
+    <div id="quiz" class="hidden">
+      <div id="question"></div>
+      <div id="options"></div>
+      <button id="next">Next</button>
+    </div>
+
+    <div id="result" class="hidden">
+      <div id="score"></div>
+      <button id="restart">Restart Quiz</button>
+    </div>
+
+    <div id="howto" class="hidden">
+      <p>Answer the questions by clicking the correct option. At the end, you’ll see your score and percentage.</p>
+      <button id="back">Back</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
