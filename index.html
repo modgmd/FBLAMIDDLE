@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Coding Quiz By:Jamir Weaver-Reid</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FBLA Coding Quiz by Jamir Weaver-Reid</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Coding Quiz By: Jamir Weaver-Reid</h1>
-    <div id="menu">
-      <button id="start">Start Quiz</button>
-      <button id="how">How to Play</button>
-    </div>
+  <div id="menu">
+    <h1>FBLA Coding Quiz</h1>
+    <p>by: Jamir Weaver-Reid</p>
+    <button id="start">Start Quiz</button>
+    <button id="how">How to Play</button>
+  </div>
 
-    <div id="quiz" class="hidden">
-      <div id="question"></div>
-      <div id="options"></div>
-      <button id="next">Next</button>
-    </div>
+  <div id="howto" class="hidden">
+    <h2>How to Play</h2>
+    <p>Answer all 20 questions about FBLA Coding & Programming. Your score and percentage will appear at the end.</p>
+    <button id="back">Back to Menu</button>
+  </div>
 
-    <div id="result" class="hidden">
-      <div id="score"></div>
-      <button id="restart">Restart Quiz</button>
-    </div>
+  <div id="quiz" class="hidden">
+    <h2 id="question"></h2>
+    <div id="options"></div>
+    <button id="next">Next</button>
+  </div>
 
-    <div id="howto" class="hidden">
-      <p>Answer the questions by clicking the correct anwsers. Then when you finish it, you see the grade you got.</p>
-      <button id="back">Back</button>
-    </div>
+  <div id="result" class="hidden">
+    <h2>Quiz Complete!</h2>
+    <p id="score"></p>
+    <p>by: Jamir Weaver-Reid</p>
+    <button id="restart">Restart Quiz</button>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
-
-
