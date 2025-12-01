@@ -17,7 +17,7 @@ const questions = [
   { q: "Which skill does the Exploring Coding & Programming event highlight?", opts: ["Problem-solving with code", "Only typing speed", "Art skills", "Sports strategy"], a: 0 },
   { q: "Exceeds expectations in user interface means:", opts: ["Program is intuitive with clear instructions", "No instructions needed", "Hidden buttons", "Only colors matter"], a: 0 },
   { q: "Comments in code should be:", opts: ["Logical and helpful to judges", "Random text", "Not present", "Only for decoration"], a: 0 },
-  { q: "A well-designed program in FBLA rubric is:", opts: ["Functional, modular, and readable", "Broken and confusing", "Unrelated to prompt", "Minimal effort code"], a: 0 },
+  { q: "A well-designed program in FBLA rubric is:", opts: ["Functional modular and readable", "Broken and confusing", "Unrelated to prompt", "Minimal effort code"], a: 0 },
   { q: "What is the purpose of the Exploring Coding & Programming presentation?", opts: ["To show your program works and explain design", "To copy someone else's program", "To only show code", "To present graphics only"], a: 0 }
 ];
 
@@ -98,3 +98,4 @@ function showResult() {
   const percent = (score / questions.length) * 100;
   scoreEl.textContent = `You scored ${score} out of ${questions.length} (${percent.toFixed(2)}%)`;
 }
+
