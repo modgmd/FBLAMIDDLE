@@ -1,41 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FBLA Coding Quiz/Time Trval Game by Jamir Weaver-Reid</title>
+  <title>Time Travel Coding Quiz – By Jamir Weaver-Reid</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="menu">
-    <h1>FBLA Coding Quiz/Time Travel Game</h1>
-    <p>by: Jamir Weaver-Reid</p>
-    <button id="start">Start Game</button>
-    <button id="how">How to Play</button>
-  </div>
 
-  <div id="howto" class="hidden">
-    <h2>How to Play</h2>
-    <p>Answer 20 quesdtions about FBLA Coding and Programming. Your score/grade will appear when you finish the quiz to get it.</p>
-    <button id="back">Back to Menu</button>
-  </div>
+<h1>Time Travel Coding Quiz</h1>
+<h3>By: Jamir Weaver-Reid</h3>
 
-  <div id="quiz" class="hidden">
-    <h2 id="question"></h2>
-    <div id="options"></div>
-    <button id="next">Next</button>
-  </div>
+<div id="start">
+  <p>Travel through time! Choose your era:</p>
+  <button class="btn" onclick="startLevel(1)">Early Computers Era</button>
+  <button class="btn" onclick="startLevel(2)">Quantum Computing Era</button>
+</div>
 
-  <div id="result" class="hidden">
-    <h2>Game Complete!</h2>
-    <p id="score"></p>
-    <p>by: Jamir Weaver-Reid</p>
-    <button id="restart">Restart Game/Quiz</button>
-  </div>
+<div id="quiz" class="hidden">
+  <h2 id="question"></h2>
+  <div id="answers"></div>
+</div>
 
-  <script src="script.js"></script>
+<div id="end" class="hidden">
+  <h2>Your Score:</h2>
+  <h1 id="score"></h1>
+  <button class="btn" onclick="location.reload()">Time Travel Again</button>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
-
-
-
