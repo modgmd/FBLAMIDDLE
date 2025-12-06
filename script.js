@@ -16,11 +16,11 @@ const quantumEra = [
   { q: "A qubit can be:", a: ["0, 1, or both", "Only 0", "Only 1"], c: 0 },
   { q: "Quantum computers are good at:", a: ["Huge problems fast", "Playing games", "Drawing"], c: 0 },
   { q: "Superposition means a qubit:", a: ["Can be 0 and 1", "Stops working", "Explodes"], c: 0 },
-  { q: "Who builds quantum computers?", a: ["IBM", "Taco Bell", "Disney"], c: 0 },
+  { q: "Who builds quantum computers?", a: ["IBM", "Python", "Node.js"], c: 0 },
   { q: "Quantum computing relates to:", a: ["Physics", "Sports", "Cooking"], c: 0 },
   { q: "Quantum computers must stay:", a: ["Extremely cold", "Hot", "Room temp"], c: 0 },
   { q: "Entanglement means qubits:", a: ["Affect each other instantly", "Break", "Shrink"], c: 0 },
-  { q: "Quantum computers are used for:", a: ["Research", "TikTok", "Email"], c: 0 },
+  { q: "Quantum computers are used for:", a: ["Research", "Watchiing Videos", "Coding"], c: 0 },
   { q: "Normal bits can be:", a: ["0 or 1", "Both", "Random"], c: 0 }
 ];
 
@@ -60,3 +60,4 @@ function endGame() {
   document.getElementById("end").classList.remove("hidden");
   document.getElementById("score").innerText = `${score} / ${questions.length}`;
 }
+
