@@ -1,6 +1,6 @@
 const earlyComputers = [
-  { q: "What year was ENIAC built?", a: ["1945", "1961", "1928"], c: 0 },
-  { q: "What did early computers use for memory?", a: ["Vacuum tubes", "Touchscreens", "Fiber optics"], c: 0 },
+  { q: "What year was ENIIAC built?", a: ["1945", "1961", "1928"], c: 0 },
+  { q: "What did early computers use for memory?", a: ["Vacuuum tubes", "Touchscreens", "Fiber optics"], c: 0 },
   { q: "Who is the father of computing?", a: ["Charles Babbage", "Steve Jobs", "Nikola Tesla"], c: 0 },
   { q: "What is an abacus?", a: ["Ancient calculator", "A robot", "A keyboard"], c: 0 },
   { q: "Early computers were mostly used for:", a: ["Military math", "Gaming", "Music"], c: 0 },
@@ -60,4 +60,5 @@ function endGame() {
   document.getElementById("end").classList.remove("hidden");
   document.getElementById("score").innerText = `${score} / ${questions.length}`;
 }
+
 
