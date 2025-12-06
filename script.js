@@ -15,13 +15,13 @@ const earlyComputers = [
 const quantumEra = [
   { q: "Quantum computers use:", a: ["Qubits", "Megabytes", "CPU cores"], c: 0 },
   { q: "A qubit can be:", a: ["0, 1, or both", "Only 0", "Only 1"], c: 0 },
-  { q: "Quantum computers excel at:", a: ["Huge calculations", "Minecraft", "Drawing"], c: 0 },
+  { q: "Quantum computers excel at:", a: ["Huge calculations", "Minecraft", "Python"], c: 0 },
   { q: "Superposition means:", a: ["0 and 1 at the same time", "The chip is broken", "It overheats"], c: 0 },
   { q: "Which company builds quantum computers?", a: ["IBM", "Nike", "Netflix"], c: 0 },
   { q: "Quantum computing is based on:", a: ["Physics", "Art", "Sports"], c: 0 },
   { q: "Quantum computers must stay:", a: ["Extremely cold", "Extremely hot", "Room temperature"], c: 0 },
   { q: "Entanglement means qubits:", a: ["Affect each other instantly", "Break apart", "Multiply"], c: 0 },
-  { q: "Quantum computers are used for:", a: ["Research", "Social media", "Music"], c: 0 },
+  { q: "Quantum computers are used for:", a: ["Reesearch", "Social media", "Music"], c: 0 },
   { q: "Normal bits are always:", a: ["0 or 1", "Both", "Random"], c: 0 }
 ];
 
@@ -118,3 +118,4 @@ function endQuiz() {
     Percentage: ${percent}%
   `;
 }
+
